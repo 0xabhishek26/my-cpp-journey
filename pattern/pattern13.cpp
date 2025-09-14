@@ -8,11 +8,10 @@ int main()
     {
         int j=1;
         char ch='A'+i-1;;
-        while(j<=n)
+        while(j<=i)
         {
             cout<<ch<<'\t';
             j++;
-            ch++;
         }
         cout<<endl;
         i++;

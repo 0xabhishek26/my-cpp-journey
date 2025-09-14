@@ -2,20 +2,16 @@
 using namespace std;
 int main()
 {
-    int n=3,i=1;
-    
-    while (i<=n)
+    int n=5,i=1;
+    while(i<=n)
     {
         int j=1;
-        char ch='A'+i-1;;
-        while(j<=n)
+        while(j<=i)
         {
-            cout<<ch<<'\t';
+            cout<<"*"<<'\t';
             j++;
-            ch++;
         }
         cout<<endl;
         i++;
-        
     }
 }
