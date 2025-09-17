@@ -2,20 +2,14 @@
 using namespace std;
 int main()
 {
-    int n=3,i=1;
-    
-    while (i<=n)
+    int r=0;
+    if(r==1)
+        cout<<"true";
+    while(r%2==0)
     {
-        int j=1;
-        char ch='A'+i-1;;
-        while(j<=n)
-        {
-            cout<<ch<<'\t';
-            j++;
-            ch++;
-        }
-        cout<<endl;
-        i++;
-        
+        r=r/2;
+        if(r==1)
+            cout<< "true";
     }
+    cout<<"false";
 }
